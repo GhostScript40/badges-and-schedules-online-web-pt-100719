@@ -17,7 +17,6 @@ def assign_rooms(speakers)
   room = 1
   speakers.each do |name| message = "Hello, #{name}! You'll be assigned to room #{room}!"
   room += 1
-  binding.pry
   rooms_array << message
 end
 rooms_array
