@@ -7,7 +7,6 @@ end
 def batch_badge_creator(array)
 badges = []
 array.each do |names| message =  "Hello, my name is #{names}."
- binding.pry
   badges << message
   end
   badges
@@ -18,6 +17,7 @@ def assign_rooms(speakers)
   room = 1
   speakers.each do |name| message = "Hello, #{name}! You'll be assigned to room #{room}!"
   room += 1
+  binding.pry
   rooms_array << message
 end
 rooms_array
