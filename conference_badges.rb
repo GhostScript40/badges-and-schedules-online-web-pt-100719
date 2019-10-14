@@ -8,6 +8,7 @@ def batch_badge_creator(array)
 badges = []
 array.each do |names| message =  "Hello, my name is #{names}."
   badges << message
+  binding.pry
   end
   badges
 end
